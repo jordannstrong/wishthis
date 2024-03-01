@@ -27,7 +27,7 @@ class Wish
 
     public static array $priorities;
     public static array $affiliates = array(
-        'amazon.de' => 'grandel0b-21',
+        'amazon.de' => AFFILIATE_TAG,
     );
 
     public static function initialize()
